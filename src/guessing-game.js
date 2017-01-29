@@ -22,7 +22,7 @@ class GuessingGame
 			}
 	
 			lower() {
-				this.array = []
+				this.array = [];
 				for (var i = this.minIndex; i <= this.tempNumber; i++) {
 					this.array.push(i);
 				}
